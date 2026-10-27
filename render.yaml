@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: libreria-inteligente
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Render te pedirá estos dos valores al crear el servicio (no se guardan en el repositorio)
+      - key: WEAVIATE_URL
+        sync: false
+      - key: WEAVIATE_API_KEY
+        sync: false

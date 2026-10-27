@@ -343,5 +343,12 @@ with gr.Blocks(title="Librería inteligente - Weaviate") as demo:
 
 
 if __name__ == "__main__":
-    # En Hugging Face Spaces (variable SPACE_ID) no hay navegador local que abrir
-    demo.launch(inbrowser=not os.getenv("SPACE_ID"))
+    # En un servidor (Render pone la variable PORT; Hugging Face, SPACE_ID) hay que
+    # escuchar en todas las interfaces y no abrir ningún navegador local.
+    puerto = os.getenv("PORT")
+    en_servidor = bool(puerto or os.getenv("SPACE_ID"))
+    demo.launch(
+        server_name="0.0.0.0" if en_servidor else None,
+        server_port=int(puerto) if puerto else None,
+        inbrowser=not en_servidor,
+    )
