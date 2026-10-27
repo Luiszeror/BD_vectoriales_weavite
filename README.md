@@ -10,7 +10,8 @@ app_file: app.py
 pinned: false
 ---
 
-# 📚 Librería inteligente: taller de bases de datos vectoriales con Weaviate
+
+#  Librería inteligente: taller de bases de datos vectoriales con Weaviate
 
 Taller práctico en Python para aprender búsqueda vectorial con **Weaviate Cloud** sobre un catálogo
 ficticio de 48 libros en español. Incluye una interfaz gráfica para explorar consultas, la colección
@@ -42,13 +43,13 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Crea tu archivo de credenciales:
+Crear archivo de credenciales:
 
 ```bash
 cp .env.example .env
 ```
 
-Y complétalo con los datos de tu clúster (consola de Weaviate Cloud):
+Y completar con los datos del clúster (consola de Weaviate Cloud):
 
 ```
 WEAVIATE_URL=https://tu-cluster.weaviate.cloud     # "REST Endpoint"
@@ -92,20 +93,3 @@ sale vacía, espera un momento y repítela.
 └── .env.example         Plantilla de credenciales
 ```
 
-## Problemas frecuentes
-
-- **`pip` intenta compilar `cryptography` y falla** (Mac Intel): ejecuta
-  `pip install --only-binary=:all: cryptography` y luego `pip install -r requirements.txt`.
-- **`collections count limit of 1 reached`:** el sandbox gratuito solo admite una colección.
-  Ejecuta `python schema.py --reset` para dejar únicamente `Libro`.
-- **Búsqueda semántica vacía justo después de cargar:** el índice aún se está construyendo; espera y repite.
-- **`Faltan WEAVIATE_URL o WEAVIATE_API_KEY`:** revisa que el archivo se llame `.env` y esté junto a `config.py`.
-
-## Seguridad
-
-Nunca subas el archivo `.env` al repositorio (ya está en `.gitignore`). Si una API key se publica
-por error, bórrala en la consola de Weaviate Cloud y crea otra.
-
-## Datos
-
-Todos los libros, autores y reseñas son **ficticios** y fueron generados para este taller.
