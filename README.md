@@ -1,6 +1,6 @@
 ---
 title: Libreria inteligente Weaviate
-emoji: 📚
+emoji: :)
 colorFrom: indigo
 colorTo: blue
 sdk: gradio
