@@ -1,0 +1,31 @@
+# Credenciales: NUNCA subir al repositorio
+.env
+.env.*
+!.env.example
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Gradio
+.gradio/
+flagged/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Empaquetados
+*.zip
+
+# Sistema operativo y editores
+.DS_Store
+.idea/
+.vscode/
+
+# Vercel
+.vercel/

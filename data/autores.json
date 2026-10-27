@@ -1,0 +1,114 @@
+[
+  {
+    "autor_id": "A01",
+    "nombre": "Marcela Ibáñez Roldán",
+    "pais": "Colombia",
+    "anio_nacimiento": 1974,
+    "bio": "Escribe sobre memoria, oficios antiguos y ciencia cotidiana."
+  },
+  {
+    "autor_id": "A02",
+    "nombre": "Tomás Valderrama",
+    "pais": "Chile",
+    "anio_nacimiento": 1969,
+    "bio": "Autor de novelas históricas y divulgación sobre el mar."
+  },
+  {
+    "autor_id": "A03",
+    "nombre": "Lucía Ferrándiz",
+    "pais": "España",
+    "anio_nacimiento": 1981,
+    "bio": "Narradora de ciencia ficción íntima y relatos epistolares."
+  },
+  {
+    "autor_id": "A04",
+    "nombre": "Ernesto Quiroga",
+    "pais": "Argentina",
+    "anio_nacimiento": 1963,
+    "bio": "Maestro del misterio atmosférico y la novela rioplatense."
+  },
+  {
+    "autor_id": "A05",
+    "nombre": "Daniela Ospina Cruz",
+    "pais": "Colombia",
+    "anio_nacimiento": 1985,
+    "bio": "Escribe romance contemporáneo y literatura infantil."
+  },
+  {
+    "autor_id": "A06",
+    "nombre": "Rodrigo Salcedo",
+    "pais": "México",
+    "anio_nacimiento": 1977,
+    "bio": "Ciencia ficción y novela histórica sobre la Revolución."
+  },
+  {
+    "autor_id": "A07",
+    "nombre": "Inés Beltrán Ugarte",
+    "pais": "Perú",
+    "anio_nacimiento": 1979,
+    "bio": "Fantasía andina, cuentos infantiles y comedias románticas."
+  },
+  {
+    "autor_id": "A08",
+    "nombre": "Camilo Aranguren",
+    "pais": "Colombia",
+    "anio_nacimiento": 1988,
+    "bio": "Escribe sobre tecnología, historia cafetera y literatura juvenil."
+  },
+  {
+    "autor_id": "A09",
+    "nombre": "Paula Montenegro",
+    "pais": "Uruguay",
+    "anio_nacimiento": 1972,
+    "bio": "Romance, misterio y ensayo sobre relaciones personales."
+  },
+  {
+    "autor_id": "A10",
+    "nombre": "Julián Escalante",
+    "pais": "España",
+    "anio_nacimiento": 1980,
+    "bio": "Thrillers de pueblo, ciencia ficción y productividad."
+  },
+  {
+    "autor_id": "A11",
+    "nombre": "Verónica Lazcano",
+    "pais": "México",
+    "anio_nacimiento": 1983,
+    "bio": "Suspenso financiero y guías de hábitos."
+  },
+  {
+    "autor_id": "A12",
+    "nombre": "Gaspar Idiáquez",
+    "pais": "Argentina",
+    "anio_nacimiento": 1966,
+    "bio": "Fantasía épica, ciencia ficción y divulgación matemática."
+  },
+  {
+    "autor_id": "A13",
+    "nombre": "Natalia Pardo Vidal",
+    "pais": "Chile",
+    "anio_nacimiento": 1986,
+    "bio": "Divulgación sobre el cerebro, fantasía y ciencia ficción agrícola."
+  },
+  {
+    "autor_id": "A14",
+    "nombre": "Mauricio Linares",
+    "pais": "Colombia",
+    "anio_nacimiento": 1975,
+    "bio": "Fantasía humorística y divulgación biológica."
+  },
+  {
+    "autor_id": "A15",
+    "nombre": "Soledad Arrieta",
+    "pais": "Perú",
+    "anio_nacimiento": 1982,
+    "bio": "Novela de aventuras, fantasía y literatura juvenil."
+  },
+  {
+    "autor_id": "A16",
+    "nombre": "Andrés Calderón Pinto",
+    "pais": "Ecuador",
+    "anio_nacimiento": 1970,
+    "bio": "Finanzas personales, crecimiento personal y narrativa infantil."
+  }
+]

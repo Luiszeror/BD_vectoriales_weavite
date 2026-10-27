@@ -1,0 +1,126 @@
+[
+  {
+    "consulta": "un libro sobre superar el fracaso",
+    "tipo": "semantica",
+    "esperados": [
+      "Cómo levantarse después de fracasar"
+    ],
+    "nota": "No contiene la frase exacta 'superar el fracaso'; ideal para mostrar semántica."
+  },
+  {
+    "consulta": "historia de amor con cartas entre desconocidos",
+    "tipo": "semantica",
+    "esperados": [
+      "Cartas a medianoche"
+    ],
+    "nota": "Búsqueda por concepto."
+  },
+  {
+    "consulta": "novela donde los recuerdos se pierden",
+    "tipo": "semantica",
+    "esperados": [
+      "La frecuencia del olvido",
+      "El archivo de las mareas"
+    ],
+    "nota": "Memoria como tema."
+  },
+  {
+    "consulta": "libros para que mi hijo pierda el miedo",
+    "tipo": "semantica",
+    "esperados": [
+      "El dragón que tenía miedo al fuego"
+    ],
+    "nota": "Lenguaje coloquial."
+  },
+  {
+    "consulta": "cómo concentrarme sin distracciones del celular",
+    "tipo": "semantica",
+    "esperados": [
+      "Enfoque profundo en la era del ruido"
+    ],
+    "nota": "Sin palabras clave en común."
+  },
+  {
+    "consulta": "explicar la inteligencia artificial a personas sin formación técnica",
+    "tipo": "semantica",
+    "esperados": [
+      "Inteligencia artificial sin misterio"
+    ],
+    "nota": "Paráfrasis."
+  },
+  {
+    "consulta": "Marcela Ibáñez Roldán",
+    "tipo": "keyword",
+    "esperados": [
+      "Los telares de Popayán",
+      "Cuaderno de un testigo ciego",
+      "Átomos y cafeína"
+    ],
+    "nota": "Nombre propio: BM25 gana a la semántica pura."
+  },
+  {
+    "consulta": "Popayán",
+    "tipo": "keyword",
+    "esperados": [
+      "Los telares de Popayán"
+    ],
+    "nota": "Término exacto."
+  },
+  {
+    "consulta": "978-958",
+    "tipo": "keyword",
+    "esperados": [],
+    "nota": "Prefijo ISBN; mostrar límites de la búsqueda vectorial."
+  },
+  {
+    "consulta": "misterio en un pueblo aislado por la nieve y una desaparición",
+    "tipo": "hibrida",
+    "esperados": [
+      "Niebla en Villa Alcázar"
+    ],
+    "nota": "Mezcla de concepto y términos."
+  },
+  {
+    "consulta": "fantasía con dragones y política",
+    "tipo": "hibrida",
+    "esperados": [
+      "La corona de ceniza"
+    ],
+    "nota": "Ajustar alpha entre 0.3 y 0.7."
+  },
+  {
+    "consulta": "novela histórica sobre exilio republicano en Chile",
+    "tipo": "hibrida",
+    "esperados": [
+      "El barco de los exiliados"
+    ],
+    "nota": "Concepto + lugar."
+  },
+  {
+    "consulta": "ciencia ficción publicada desde 2021",
+    "tipo": "filtro",
+    "esperados": [
+      "Colonia Ítaca",
+      "Cielo de silicio",
+      "Jardines de Marte"
+    ],
+    "nota": "Combinar near_text con filtro por género y anio >= 2021."
+  },
+  {
+    "consulta": "libros con rating mayor a 4.4",
+    "tipo": "filtro",
+    "esperados": [
+      "Los últimos cartógrafos",
+      "La corona de ceniza",
+      "Sombras de la biblioteca viva",
+      "El dragón que tenía miedo al fuego"
+    ],
+    "nota": "Filtro puro sobre metadatos."
+  },
+  {
+    "consulta": "recomiéndame tres novelas para leer en una noche de lluvia",
+    "tipo": "rag",
+    "esperados": [],
+    "nota": "Prompt generativo (RAG): evaluar coherencia, no títulos exactos."
+  }
+]

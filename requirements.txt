@@ -1,0 +1,5 @@
+weaviate-client>=4.16
+python-dotenv>=1.0
+gradio>=6.0
+pandas>=2.0
+numpy>=1.26
