@@ -12,6 +12,7 @@ Pestañas:
 """
 import atexit
 import json
+import os
 
 import gradio as gr
 import numpy as np
@@ -342,4 +343,5 @@ with gr.Blocks(title="Librería inteligente - Weaviate") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(inbrowser=True)
+    # En Hugging Face Spaces (variable SPACE_ID) no hay navegador local que abrir
+    demo.launch(inbrowser=not os.getenv("SPACE_ID"))

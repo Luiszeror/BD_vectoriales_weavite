@@ -1,3 +1,15 @@
+---
+title: Libreria inteligente Weaviate
+emoji: 📚
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: 6.30.0
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
 # 📚 Librería inteligente: taller de bases de datos vectoriales con Weaviate
 
 Taller práctico en Python para aprender búsqueda vectorial con **Weaviate Cloud** sobre un catálogo
