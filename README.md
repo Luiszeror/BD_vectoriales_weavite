@@ -30,13 +30,13 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Crea tu archivo de credenciales:
+Crear archivo de credenciales:
 
 ```bash
 cp .env.example .env
 ```
 
-Y complétalo con los datos de tu clúster (consola de Weaviate Cloud):
+Y completar con los datos del clúster (consola de Weaviate Cloud):
 
 ```
 WEAVIATE_URL=https://tu-cluster.weaviate.cloud     # "REST Endpoint"
